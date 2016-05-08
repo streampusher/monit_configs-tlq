@@ -4,6 +4,7 @@ maintainer_email  "ben@talkingquickly.co.uk"
 description       "Monit configs for server components"
 version           "0.1.2"
 
+recipe "monit_configs-tlq::docker", "Monit config for docker"
 recipe "monit_configs-tlq::memcached", "Monit config for memcached"
 recipe "monit_configs-tlq::mongo", "Monit config for mongodb"
 recipe "monit_configs-tlq::mysql-server", "Monit config for mysql server"
