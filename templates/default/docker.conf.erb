@@ -1,0 +1,5 @@
+#monitoring docker
+check process docker
+  with pidfile "/var/run/docker.pid"
+  start program = "/etc/init.d/docker start"
+  stop program = "/etc/init.d/docker stop"
